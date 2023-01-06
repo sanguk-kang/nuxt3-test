@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --dotenv .env.localhost",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^0.8.1",
+    "@pinia-plugin-persistedstate/nuxt": "^1.0.0",
+    "nuxt": "3.0.0",
+    "vue-i18n": "^9.2.2"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "@rushstack/eslint-patch": "^1.2.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.31.0",
+    "eslint-plugin-vue": "^9.8.0",
+    "pinia": "^2.0.28",
+    "prettier": "^2.8.1",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-eslint-parser": "^9.1.0"
+  }
+}
