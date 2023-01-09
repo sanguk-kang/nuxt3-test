@@ -27,7 +27,6 @@
 <script setup>
 import { ref } from 'vue';
 import useUserStore from '~/stores/common/userStore';
-import useTestStore from '~/stores/common/testStore';
 import { useI18n } from 'vue-i18n';
 
 // definePageMeta({
@@ -36,14 +35,14 @@ import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n();
 
-console.log('>>> index page', useUserStore().accessToken);
-console.log('>>> useTestStore', useTestStore().someState);
+console.log('>>> page index', useUserStore().accessToken);
 // env
 // console.log('>> env', import.meta.env);
 // , process.env.BASE_URL
 function clickEvent() {
 	// useUserStore().moveTest();
 	const router = useRouter();
+	useUserStore().accessToken = 'zzz';
 	router.push({ path: '/app/Home' });
 }
 

@@ -1,5 +1,5 @@
 <template>
-	<div>Test</div>
+	<div>sampe index</div>
 </template>
 
 <script setup></script>

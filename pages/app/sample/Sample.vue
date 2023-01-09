@@ -1,9 +1,9 @@
 <template>
-	<div></div>
+	<div>Sample</div>
 </template>
 
 <script setup>
-console.log('app/index');
+console.log('app/sample');
 </script>
 
 <style lang="scss" scoped></style>

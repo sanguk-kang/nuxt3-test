@@ -4,7 +4,7 @@ import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite';
 // import eslint from 'vite-plugin-eslint';
 
 export default defineNuxtConfig({
-	ssr: true,
+	ssr: false,
 	typescript: {
 		shim: false,
 	},

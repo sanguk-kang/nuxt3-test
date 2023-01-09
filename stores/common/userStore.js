@@ -5,7 +5,7 @@ const useUserStore = defineStore({
 	id: 'userStore',
 	state: () => ({
 		user: {},
-		accessToken: '123',
+		accessToken: '1232',
 		refreshToken: '4567',
 		locale: '',
 		isAccessInfo: false,
